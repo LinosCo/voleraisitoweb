@@ -1,0 +1,93 @@
+/*
+----------------------------------------------------------
+
+#Breadcrumbs
+
+----------------------------------------------------------
+*/
+.breadcrumb {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  list-style: none;
+  line-height: 1.2;
+}
+.breadcrumb > li {
+  display: inline-block;
+  margin-top: 0;
+}
+:not(.breadcrumb-module).breadcrumb > li {
+  font-size: 13px;
+}
+.breadcrumb > li + li:not(.paged):before {
+  content: "\002f";
+  padding: 0 5px;
+}
+.uncode_breadcrumbs_wrap.bc-separator-none .breadcrumb > li + li:not(.paged):before {
+  content: "\0020";
+}
+.uncode_breadcrumbs_wrap.bc-separator-pipe .breadcrumb > li + li:not(.paged):before {
+  content: "\007c";
+}
+.uncode_breadcrumbs_wrap.bc-separator-dash .breadcrumb > li + li:not(.paged):before {
+  content: "\2012";
+}
+.uncode_breadcrumbs_wrap.bc-separator-bullet .breadcrumb > li + li:not(.paged):before {
+  content: "\2022";
+}
+.uncode_breadcrumbs_wrap.bc-separator-triangle .breadcrumb > li + li:not(.paged):before {
+  content: "\2023";
+}
+@media (max-width: 959px) {
+  .breadcrumb {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center;
+  }
+}
+.row-breadcrumb {
+  border-top-width: 1px !important;
+  border-bottom-width: 1px !important;
+  border-style: solid !important;
+}
+.row-breadcrumb.row-breadcrumb-light {
+  border-color: #eaeaea;
+  background-color: #f7f7f7;
+}
+.row-breadcrumb.row-breadcrumb-dark {
+  border-color: #303133;
+  background-color: #191b1e;
+}
+.row-breadcrumb .breadcrumb-title {
+  margin: 0;
+  line-height: 1.3em;
+}
+@media (max-width: 959px) {
+  .row-breadcrumb .breadcrumb-title {
+    margin: auto !important;
+    text-align: center;
+    float: none !important;
+  }
+}
+.row-breadcrumb.text-left .breadcrumb {
+  margin: 0px 0px 0px 0px !important;
+}
+.row-breadcrumb.text-left .breadcrumb-title {
+  float: right;
+}
+.row-breadcrumb.text-right .breadcrumb {
+  margin: 0px 0px 0px 0px !important;
+}
+.row-breadcrumb.text-right .breadcrumb-title {
+  float: left;
+}
+.row-breadcrumb.text-center .breadcrumb {
+  margin-top: 9px;
+}
+@media (max-width: 959px) {
+  .row-breadcrumb .row > *:not(:first-child) {
+    margin: 9px 0px 0px 0px !important;
+  }
+}
+.breadcrumb-module {
+  text-align: inherit;
+}

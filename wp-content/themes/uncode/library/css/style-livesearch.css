@@ -1,0 +1,87 @@
+.uncode-live-search i {
+  font-size: 18px;
+}
+ul.dwls_search_results {
+  display: block;
+  padding: 0px 27px 0px 27px;
+  max-height: 500px;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  overflow: auto;
+  z-index: 9999;
+  list-style-type: none;
+  list-style-image: none;
+  list-style-position: inside;
+  border-radius: 0 0 2px 2px;
+  border-style: solid;
+  border-width: 1px;
+}
+ul.dwls_search_results li {
+  display: block;
+  padding: 18px 0px 18px 0px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  margin: 0 0 0 0;
+  text-align: left;
+  text-decoration: none;
+}
+ul.dwls_search_results li p {
+  margin: 5px 0px 0px 0px;
+}
+ul.dwls_search_results li a,
+ul.dwls_search_results li a:visited {
+  display: block;
+  margin-left: 0;
+  padding-left: 0;
+  text-decoration: none;
+}
+ul.dwls_search_results .daves-wordpress-live-search_title span {
+  display: block;
+}
+ul.dwls_search_results .daves-wordpress-live-search_title .search-category {
+  font-size: 90%;
+}
+ul.dwls_search_results .daves-wordpress-live-search_title span {
+  display: block;
+}
+ul.dwls_search_results .daves-wordpress-live-search_author {
+  margin: 5px 0px 0px 0px;
+  font-size: 90%;
+}
+ul.dwls_search_results .daves-wordpress-live-search_date {
+  margin: 0;
+  font-size: 90%;
+}
+ul.dwls_search_results .excerpt,
+ul.dwls_search_results .meta {
+  width: 100%;
+}
+ul.dwls_search_results .clearfix {
+  float: none !important;
+  clear: both !important;
+}
+.search_footer {
+  width: 100%;
+  padding: 27px 0px 27px 0px;
+  font-size: 10px !important;
+  transition: color 200ms ease-in-out, background-color 200ms ease-in-out, border-color 200ms ease-in-out;
+}
+.search_footer a,
+.search_footer a:visited {
+  margin-right: 1em;
+  text-decoration: none;
+}
+.dwls_search_results_activity_indicator {
+  z-index: 999999;
+}
+#search_results_activity_indicator {
+  width: 32px;
+  height: 32px;
+}
+.style-light#search_results_activity_indicator {
+  background-image: url(https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/oval-anim-light.svg);
+}
+.style-dark#search_results_activity_indicator {
+  background-image: url(https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/oval-anim-dark.svg);
+}

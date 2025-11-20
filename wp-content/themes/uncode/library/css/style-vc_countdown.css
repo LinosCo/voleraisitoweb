@@ -1,0 +1,9 @@
+/* VC Countdown
+---------------------------------------------------------- */
+.countdown {
+  line-height: 1;
+}
+.countdown small {
+  line-height: inherit;
+  font-size: 1em;
+}

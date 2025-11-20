@@ -1,0 +1,118 @@
+.linear-system.linear-vertical {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.linear-system.linear-vertical .tmb {
+  padding-right: 0 !important;
+}
+.linear-system.linear-horizontal .t-inside {
+  margin-top: 0 !important;
+}
+.linear-system .linear-wrapper {
+  display: flex;
+}
+.linear-system .linear-wrapper.linear-dragging * {
+  cursor: grabbing !important;
+}
+.pos-center .linear-system .linear-wrapper:not([data-infinite="yes"]):not([data-animation="marquee"]):not([data-animation="marquee-opposite"]) {
+  justify-content: center;
+}
+.pos-right .linear-system .linear-wrapper:not([data-infinite="yes"]):not([data-animation="marquee"]):not([data-animation="marquee-opposite"]) {
+  justify-content: end;
+}
+.pos-left .linear-system .linear-wrapper:not([data-infinite="yes"]):not([data-animation="marquee"]):not([data-animation="marquee-opposite"]) {
+  justify-content: start;
+}
+.linear-system .linear-wrapper .linear-container {
+  display: inline-flex;
+}
+.linear-system .linear-wrapper .linear-container.linear-or-vertical {
+  flex-direction: column;
+}
+.linear-system .linear-wrapper .linear-container.linear-or-vertical.cont-appended {
+  top: 0;
+  position: absolute;
+}
+.linear-system .linear-wrapper .linear-container.linear-or-vertical.first-child {
+  top: 0;
+  position: absolute;
+  transform: translateY(-100%);
+}
+.linear-system .linear-wrapper .linear-container.linear-or-vertical.last-child {
+  top: 0;
+  position: absolute;
+  transform: translateY(100%);
+}
+.linear-system .linear-wrapper .linear-container.linear-or-horizontal.cont-appended {
+  left: 0;
+  position: absolute;
+}
+.linear-system .linear-wrapper .linear-container.linear-or-horizontal.first-child {
+  left: 0;
+  position: absolute;
+  transform: translateX(-100%);
+}
+.linear-system .linear-wrapper .linear-container.linear-or-horizontal.last-child {
+  left: 0;
+  position: absolute;
+  transform: translateX(100%);
+}
+.linear-system .linear-wrapper .linear-container .dummy {
+  display: none;
+}
+.linear-system .linear-wrapper .linear-container .tmb {
+  display: flex;
+  align-items: center;
+}
+.linear-v-align-top.linear-system .linear-wrapper .linear-container .tmb {
+  align-items: flex-start;
+}
+.linear-v-align-bottom.linear-system .linear-wrapper .linear-container .tmb {
+  align-items: flex-end;
+}
+.linear-system .linear-wrapper .linear-container .tmb .t-inside {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.linear-h-align-right.linear-system .linear-wrapper .linear-container .tmb .t-inside {
+  justify-content: flex-end;
+}
+.linear-h-align-center.linear-system .linear-wrapper .linear-container .tmb .t-inside {
+  justify-content: center;
+}
+.linear-system .linear-wrapper .linear-container .tmb.tmb-content-lateral:not(.tmb-content-lateral-right) .t-inside {
+  flex-direction: row;
+}
+@media (max-width: 569px) {
+  .linear-system .linear-wrapper .linear-container .tmb.tmb-content-lateral.tmb-content-lateral-responsive:not(.tmb-content-lateral-right) .t-inside {
+    flex-direction: column;
+  }
+}
+.linear-system .linear-wrapper .linear-container .tmb.tmb-content-lateral.tmb-content-lateral-right .t-inside {
+  flex-direction: row-reverse;
+}
+@media (max-width: 569px) {
+  .linear-system .linear-wrapper .linear-container .tmb.tmb-content-lateral.tmb-content-lateral-right.tmb-content-lateral-responsive .t-inside {
+    flex-direction: column;
+  }
+}
+.linear-system .linear-wrapper .linear-container .tmb .t-entry-visual .pushed {
+  display: block;
+  position: relative;
+}
+.linear-by-w.linear-system .linear-wrapper .linear-container .tmb img,
+.linear-by-w.linear-system .linear-wrapper .linear-container .tmb .fluid-object {
+  width: clamp(100px, 100vw, 450px);
+  height: auto;
+}
+.linear-by-h.linear-system .linear-wrapper .linear-container .tmb img,
+.linear-by-h.linear-system .linear-wrapper .linear-container .tmb .fluid-object {
+  height: clamp(100px, 100vw, 450px);
+  width: auto;
+}
+.linear-system .linear-wrapper .linear-container .tmb .t-entry-visual .t-entry-visual-cont > a > img,
+.linear-system .linear-wrapper .linear-container .tmb .t-entry-visual .t-entry-visual-cont > a > .fluid-object:not(.has-poster) {
+  position: relative;
+}

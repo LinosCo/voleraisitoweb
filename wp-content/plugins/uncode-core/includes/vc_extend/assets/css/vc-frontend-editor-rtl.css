@@ -1,0 +1,20 @@
+.vc_welcome .vc_ui-button .vc-composer-icon {
+	padding: 0 0 0 .5em;
+}
+.rtl.compose-mode .vc_controls.vc_controls-content_block>.vc_controls-cc span.vc_btn-content span.vc_btn-content {
+    padding-left: 0 !important;
+    padding-right: 16px !important;
+}
+.compose-mode .vc_control-btn .vc-composer-icon::before {
+	-webkit-transform: translate(-50%, -50%) scaleX(-1);
+	-ms-transform: translate(-50%, -50%) scaleX(-1);
+	transform: translate(-50%, -50%) scaleX(-1);
+}
+.compose-mode .vc_controls > div > .vc_parent {
+	border-radius: 0 3px 3px 0;
+}
+.compose-mode .vc_controls-column > div > .vc_element,
+.compose-mode .vc_controls-container > div > .vc_element:not(.element-vc_section),
+.compose-mode .vc_controls-row > div > .vc_element {
+	border-radius: 3px 0 0 3px;
+}

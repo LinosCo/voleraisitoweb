@@ -1,0 +1,42 @@
+/*
+----------------------------------------------------------
+
+#Twitter
+
+----------------------------------------------------------
+*/
+.twitter-item {
+  text-align: center;
+  word-break: break-word;
+}
+.twitter-item .tweet-text > span {
+  quotes: "\201C" "\201D";
+}
+.twitter-item .tweet-text > span:before {
+  content: open-quote;
+  font-size: 1.5em;
+  line-height: 0;
+  vertical-align: -0.25em;
+  margin-right: .2em;
+}
+.twitter-item .tweet-text > span:after {
+  content: close-quote;
+  font-size: 1.5em;
+  line-height: 0;
+  vertical-align: -0.25em;
+  margin-left: .1em;
+}
+.twitter-item .twitter-item-data i.fa-twitter {
+  font-size: 54px;
+}
+.twitter-item .interact {
+  margin: 14px 0px 0px 0px;
+}
+.twitter-item .interact a {
+  margin: 0px 2px 0px 2px;
+}
+.twitter-item .interact i {
+  width: 26px;
+  font-size: 14px;
+  display: inline-block;
+}

@@ -1,0 +1,70 @@
+/* VC Pie
+---------------------------------------------------------- */
+.vc_pie_chart .wpb_wrapper {
+  width: 100%;
+  padding-top: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.vc_pie_chart {
+  z-index: 0;
+  text-align: center;
+  opacity: 0;
+  max-width: 160px;
+  min-width: 100px;
+}
+.align_center .vc_pie_chart,
+.align_left .align_center .vc_pie_chart,
+.align_right .align_center .vc_pie_chart {
+  margin: 0 auto !important;
+}
+.align_left .vc_pie_chart,
+.align_right .align_left .vc_pie_chart,
+.align_center .align_left .vc_pie_chart {
+  margin-left: 0px !important;
+  margin-right: auto !important;
+}
+.align_right .vc_pie_chart,
+.align_left .align_right .vc_pie_chart,
+.align_center .align_right .vc_pie_chart {
+  margin-left: auto !important;
+  margin-right: 0px !important;
+}
+.vc_pie_chart.vc_ready {
+  opacity: 1;
+}
+.vc_pie_chart .vc_pie_wrapper {
+  overflow: hidden;
+  position: absolute;
+  margin: 0 auto;
+  top: 0px;
+}
+.vc_pie_chart canvas {
+  position: relative;
+  z-index: 1;
+  left: -50%;
+  margin-top: -50%;
+  transform: scale(0.5, 0.5);
+}
+.vc_pie_chart .vc_pie_chart_value {
+  font-size: 150%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.vc_pie_chart_back {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-width: 7px;
+  border-style: solid;
+  border-radius: 999px;
+  border-radius: 50%;
+}

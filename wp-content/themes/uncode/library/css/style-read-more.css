@@ -1,0 +1,60 @@
+body:not(.vc-safe-mode) .overflow-mask {
+  transition: -webkit-mask-size 0.5s ease, mask-size 0.5s ease;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+}
+body:not(.vc-safe-mode) .overflow-mask.overflow-fade-lg {
+  -webkit-mask-image: linear-gradient(180deg, #ffffff, rgba(255, 255, 255, 0));
+  mask-image: linear-gradient(180deg, #ffffff, rgba(255, 255, 255, 0));
+}
+body:not(.vc-safe-mode) .overflow-mask.overflow-fade-sm {
+  -webkit-mask-image: linear-gradient(180deg, #ffffff 75%, rgba(255, 255, 255, 0));
+  mask-image: linear-gradient(180deg, #ffffff 75%, rgba(255, 255, 255, 0));
+}
+body:not(.vc-safe-mode) .overflow-mask-animation {
+  -webkit-mask-size: 100% 350%;
+  mask-size: 100% 350%;
+}
+.btn-more-wrap {
+  display: block;
+  position: relative;
+}
+.btn-more-wrap.read_more_of_center {
+  text-align: center;
+}
+.btn-more-wrap.read_more_of_left {
+  text-align: left;
+}
+.btn-more-wrap.read_more_of_right {
+  text-align: right;
+}
+.btn-more-wrap.sm-top-mrgn {
+  margin-top: 18px;
+}
+.btn-more-wrap.std-top-mrgn {
+  margin-top: 36px;
+}
+.btn-more-wrap.lg-top-mrgn {
+  margin-top: 72px;
+}
+.btn-more-wrap.w-internal-width {
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 960px) {
+  .btn-more-wrap.w-internal-width {
+    border-width: 0;
+    border-style: solid;
+    border-color: transparent;
+  }
+}
+.state-closed .read_more_of_txt_open {
+  display: none;
+}
+.state-open .read_more_of_txt_open + .read_more_of_txt_closed {
+  display: none;
+}
+.vc-safe-mode .overflow-mask {
+  height: auto !important;
+  max-height: none !important;
+}

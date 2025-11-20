@@ -1,0 +1,227 @@
+.vc_clipboard {
+	float: right;
+	position: static !important;
+	line-height: normal;
+	margin-right: 1em;
+}
+
+.vc_clipboard span, .vc_clipboard_col span, .vc_clipboard_element span {
+	cursor: pointer;
+}
+
+.vc_clipboard_col {
+	position: relative;
+	top: -3px;
+	left: 10px;
+}
+
+#vc_clipboard_toolbar_paste {
+	float: right;
+	display: flex;
+}
+
+#vc_clipboard_toolbar_paste a {
+	color: white;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	width: 60px;
+	height: 100%;
+	font-size: 18px;
+    font-weight: 600;
+}
+
+#vc_clipboard_toolbar_paste a:hover {
+	background: #036291;
+}
+
+#vc_clipboard_toolbar_paste svg {
+	width: 22px;
+}
+
+#vc_clipboard_toolbar_paste path {
+	fill: white;
+}
+
+.vc_clipboard_paste_top {
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	text-transform: uppercase;
+}
+
+.vc_clipboard_number_reset_top {
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+.vc_clipboard_export, .vc_clipboard_import, .vc_clipboard_gc_load, .vc_clipboard_gc_save, .vc_clipboard_gc_settings, .vc_clipboard_prefs, .vc_clipboard_dialog_buttons a  {
+	border-radius: 4px;
+	text-transform: uppercase;
+}
+
+.composer-switch a:hover {
+	background-color: #0d3d63 !important;
+}
+
+.vc_clipboard_input {
+	width: 60px;
+	font-size: 11px;
+	line-height: normal;
+}
+
+.vc_clipboard_container {
+	position: relative;
+	display: inline-block;
+}
+
+.vc_clipboard_dialog {
+	visibility: hidden;
+	border: 5px solid rgba(0,0,0,.3);
+	z-index: 100000;
+	border-radius: 4px;
+	color: #777;
+	background-color: #fff;
+	background-clip: padding-box;
+	padding: 15px;
+	text-align: left;
+	position: absolute;
+	top: 100%;
+	right: 0px;
+	margin-top: 3px;
+}
+
+.vc_clipboard_activate_dialog  {
+	width: 400px;
+}
+
+.vc_clipboard_prefs_dialog {
+	width: 200px;
+}
+
+.vc_clipboard_prefs_dialog label {
+	position: relative;
+	top: -3px;
+}
+
+.vc_clipboard_activate_dialog  input {
+	width: 100%;
+}
+
+.vc_clipboard_activate_dialog div {
+	line-height: normal;
+	margin-bottom: 15px;
+}
+
+.vc_clipboard_activate_dialog div a.vc_clipboard_obtain {
+	background: none;
+	display: inline;
+	line-height: normal;
+	color: #114C7F;
+	text-decoration: underline;
+	padding: 0px;
+}
+
+.vc_clipboard_activate_dialog div a.vc_clipboard_obtain:hover {
+	background: none !important;
+	color: #2ea2cc !important;
+}
+
+.vc_clipboard_dialog_buttons {
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	padding-top: 15px;
+}
+
+.vc_clipboard_loader {
+	vertical-align: middle;
+	display:none;
+	margin: 2px;
+}
+
+.vc_clipboard_load_dialog {
+	overflow-y: scroll;
+	max-width: 300px;
+	max-height: 300px;
+}
+
+.vc_clipboard_list_item_container {
+	position: relative;
+}
+
+.vc_clipboard_list_item {
+	color: #777;
+	transition: color .2s;
+	overflow: hidden; 
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-right: 30px;
+}
+
+.vc_clipboard_list_item_delete:before {
+	position: absolute;
+	top: 4px;
+	right: 0px;
+}
+
+.vc_clipboard_list_item_delete:before {
+	content: "\f335";
+	-webkit-font-smoothing: antialiased;
+	font: normal 20px/1 'dashicons';
+}
+
+.vc_clipboard_list_item_delete:hover {
+	cursor: pointer;
+}
+
+.vc_clipboard_list_item_delete:hover:before {
+	background: #ffe0e0;
+	border-radius: 50%;
+}
+
+.vc_clipboard_list_item:hover {
+	color: #ccc;
+	cursor: pointer;
+}
+
+.vc_clipboard_oc_button {
+	font: 400 20px/1 dashicons;
+	position: relative;
+	top: 6px;
+	cursor: pointer;
+	display: inline-block;
+	color: #72777c;
+}
+
+.vc_clipboard_oc_button.o:before {
+	content: '\f148';
+}
+
+.vc_clipboard_oc_button.c {
+	transform: rotate(180deg);
+}
+
+.vc_clipboard_oc_button.c:before {
+	content: '\f148';
+}
+
+#vc_clipboard_paste_indicator {
+	border: 5px solid rgba(0,0,0,.3);
+	border-radius: 4px;
+	color: #777;
+	background-color: #fff;
+	background-clip: padding-box;
+	padding: 15px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	z-index: 200000;
+	display: none;
+	-ms-transform: translate( -50%, -50% );
+   	-webkit-transform: translate( -50%, -50% );
+    transform: translate( -50%, -50% );
+    box-sizing: border-box;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+	font-size: 14px;
+}

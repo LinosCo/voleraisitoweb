@@ -1,0 +1,13 @@
+.term-color-wrap .wp-picker-container {
+    display: inline-block !important;
+    width: auto !important;
+}
+
+.term-color-wrap .iris-picker .iris-strip {
+	width: 15px !important;
+}
+
+.term-color-wrap .wp-color-result,
+.term-color-wrap .wp-color-result:hover {
+	background-color: transparent;
+}

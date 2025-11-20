@@ -1,0 +1,15 @@
+/* VC Custom Fields
+---------------------------------------------------------- */
+.uncode-custom-fields p {
+  margin-top: 0;
+}
+.detail-container.detail-container--single {
+  display: block;
+}
+.detail-container.detail-container--single .detail-label {
+  display: block;
+}
+.detail-container.detail-container--single .detail-value {
+  display: block;
+  padding: 0;
+}

@@ -1,0 +1,55 @@
+.woocommerce_variation .form-row.upload_image {
+	overflow: hidden;
+}
+
+.uncode-variation-gallery-title {
+	clear: both;
+	margin: 2em 0 1em;
+}
+
+.uncode-variation-gallery-list {
+	overflow: hidden;
+	margin: 0;
+}
+
+.uncode-variation-gallery-list li {
+	margin: 0 0 1em;
+	display: inline-table;
+}
+
+.woocommerce_variable_attributes .uncode-variation-gallery-thumb {
+	display: block;
+	width: 64px;
+	height: 64px;
+	float: left;
+	margin-right: .5em;
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.woocommerce_variable_attributes .uncode-variation-gallery-thumb img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+.woocommerce_variable_attributes .uncode-variation-gallery-thumb.remove:before {
+	content: "\f335";
+	display: none;
+	font-family: Dashicons;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	line-height: 64px;
+	font-size: 64px;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+}
+
+.woocommerce_variable_attributes .uncode-variation-gallery-thumb.remove:hover:before {
+	display: block;
+}

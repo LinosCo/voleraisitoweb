@@ -1,0 +1,220 @@
+/* Admin Settings Page */
+.wrap {
+    max-width: 800px;
+}
+
+.form-table th {
+    width: 200px;
+}
+/* Admin Tabs */
+.aicb-admin-tabs .nav-tab-wrapper {
+    border-bottom: 1px solid #ccd0d4;
+    margin: 0 0 20px 0;
+}
+
+.aicb-admin-tabs .tab-content {
+    display: none;
+}
+
+.aicb-admin-tabs .tab-content.active {
+    display: block;
+}
+/* Form Elements */
+.regular-text {
+    width: 100%;
+    max-width: 400px;
+}
+
+.large-text {
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Test Connection */
+/* Styles for button are handled by WordPress default button styles or general admin styles.
+   If #aicb-test-connection-button needs specific styling, it can be added here. */
+
+#aicb-test-connection-results { /* Updated ID */
+    display: inline-block; /* Changed to inline-block to appear after spinner if not already block */
+    font-weight: 500;
+    margin-top: 10px; /* Matches HTML structure */
+}
+
+#aicb-test-connection-results.notice-success p, /* Targeting paragraph inside for color */
+#aicb-test-connection-results .success { /* Keep .success for backward compatibility or direct use */
+    color: #46b450;
+}
+
+#aicb-test-connection-results.notice-error p, /* Targeting paragraph inside for color */
+#aicb-test-connection-results .error { /* Keep .error for backward compatibility or direct use */
+    color: #dc3232;
+}
+
+/* Field Descriptions */
+.description {
+    color: #666;
+    font-style: italic;
+    margin-top: 4px;
+}
+
+/* Settings Sections */
+.settings-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+/* Color Picker */
+.wp-picker-container {
+    display: inline-block;
+}
+
+/* Lead Generation Section display:none rules removed */
+.form-table {
+    position: relative;
+}
+
+.aicb-analytics-wrap {
+    max-width: 1100px;
+}
+
+.aicb-analytics-summary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 24px 0;
+}
+
+.aicb-analytics-card {
+    flex: 1 1 220px;
+    min-width: 220px;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    padding: 16px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.aicb-analytics-card h3 {
+    margin: 0 0 12px;
+    font-size: 15px;
+    color: #23282d;
+}
+
+.aicb-analytics-card .aicb-analytics-value {
+    margin: 0 0 8px;
+    font-size: 26px;
+    font-weight: 600;
+    color: #000;
+}
+
+.aicb-analytics-card .aicb-analytics-subtext {
+    margin: 0;
+    color: #555d66;
+}
+
+.aicb-analytics-section {
+    margin-top: 32px;
+}
+
+.aicb-analytics-section h2 {
+    margin-bottom: 12px;
+}
+
+.aicb-analytics-section table.widefat {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.aicb-analytics-section table.widefat thead th {
+    background: #f6f7f7;
+    font-weight: 600;
+}
+
+.aicb-knowledge-status {
+    margin-top: 15px;
+    padding: 16px;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.aicb-knowledge-status h4,
+.aicb-knowledge-status h5 {
+    margin-top: 0;
+}
+
+.aicb-status-list {
+    margin: 0 0 12px 18px;
+    padding: 0;
+}
+
+.aicb-status-list li {
+    margin: 0 0 4px 0;
+}
+
+.aicb-reindex-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.aicb-reindex-controls .spinner {
+    visibility: hidden;
+    margin: 0;
+}
+
+.aicb-reindex-controls .spinner.is-active {
+    visibility: visible;
+}
+
+.aicb-reindex-progress {
+    width: 240px;
+    height: 6px;
+    margin-top: 8px;
+    border-radius: 999px;
+    background: #e5e8eb;
+    overflow: hidden;
+    display: none;
+}
+
+.aicb-reindex-progress.is-active {
+    display: block;
+}
+
+.aicb-reindex-progress-bar {
+    width: 30%;
+    height: 100%;
+    background: linear-gradient(90deg, var(--aicb-primary-color), var(--aicb-secondary-color));
+    border-radius: inherit;
+    transform: translateX(-100%);
+    animation: aicb-progress-indeterminate 1.2s ease-in-out infinite;
+}
+
+@keyframes aicb-progress-indeterminate {
+    0% {
+        transform: translateX(-100%);
+    }
+    50% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+#aicb-reindex-feedback {
+    margin-top: 8px;
+    font-weight: 600;
+}
+
+#aicb-reindex-feedback.success {
+    color: #137333;
+}
+
+#aicb-reindex-feedback.error {
+    color: #d63638;
+}

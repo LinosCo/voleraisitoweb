@@ -1,0 +1,24 @@
+{
+    "name": "ai-chatbot",
+    "version": "1.0.0",
+    "description": "AI Chatbot WordPress Plugin",
+    "main": "assets/js/frontend.js",
+    "scripts": {
+        "lint:js": "eslint assets/js/*.js",
+        "lint:css": "stylelint assets/css/*.css",
+        "build": "echo \"No build step configured yet.\""
+    },
+    "keywords": [
+        "wordpress",
+        "plugin",
+        "chatbot",
+        "openai"
+    ],
+    "author": "voler.ai (https://https://linosco.github.io/voleraisitoweb)/",
+    "license": "GPL-2.0-or-later",
+    "devDependencies": {
+        "eslint": "^8.0.0",
+        "stylelint": "^15.0.0",
+        "stylelint-config-standard": "^30.0.0"
+    }
+}

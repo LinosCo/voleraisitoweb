@@ -1,0 +1,35 @@
+@media (min-width: 960px) {
+  .menu-container .menu-horizontal ul.menu-smart a.has-badge {
+    display: flex;
+    align-items: center;
+  }
+  .menu-container .menu-horizontal ul.menu-smart a.has-badge i.menu-icon {
+    line-height: normal;
+  }
+}
+.menu-badge {
+  margin-left: 9px;
+  line-height: normal;
+  font-size: .7em;
+  height: 15px;
+}
+.menu-badge__text {
+  padding: .35em .7em;
+  border-radius: 2px;
+}
+@media (max-width: 959px) {
+  body.menu-mobile-centered .main-menu-container .menu-badge,
+  body.menu-mobile-centered .vmenu-container .menu-badge,
+  body.menu-mobile-centered .overlay-menu .menu-badge {
+    font-size: .35em;
+    position: absolute;
+    top: 30%;
+  }
+}
+@media (min-width: 960px) {
+  .menu-overlay .vmenu-container .menu-badge {
+    font-size: .35em;
+    position: absolute;
+    top: 30%;
+  }
+}

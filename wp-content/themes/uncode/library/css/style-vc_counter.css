@@ -1,0 +1,9 @@
+/* VC Counter
+---------------------------------------------------------- */
+.counter:not(.started) {
+  opacity: 0;
+}
+.counter-text,
+.counter-text p {
+  margin: 0px 0px 0px 0px;
+}

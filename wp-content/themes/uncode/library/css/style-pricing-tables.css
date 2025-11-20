@@ -1,0 +1,89 @@
+/*
+----------------------------------------------------------
+
+#Pricing-tables
+
+----------------------------------------------------------
+*/
+.plan-centered {
+  text-align: center;
+}
+.plan {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border-width: 1px;
+  border-style: solid;
+}
+.plan .plan-title {
+  padding: 36px 36px 36px 36px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+.plan .plan-title > h3 {
+  font-size: 17px;
+  line-height: 1.2;
+  margin: 27px 0 0;
+  margin: 0;
+}
+.plan-colored.plan .plan-title > h3 {
+  color: #ffffff;
+}
+.plan .plan-title .plan-title-data {
+  display: block;
+  margin: 9px 0px 0px 0px;
+}
+.plan-colored.plan .plan-title .plan-title-data {
+  color: #ffffff;
+}
+.plan .plan-price {
+  padding: 36px 36px 36px 36px;
+  display: inline-block;
+  width: 100%;
+}
+.plan .plan-price .price {
+  display: block;
+  font-size: 50px;
+  margin: 0;
+  letter-spacing: 0 !important;
+}
+.plan .plan-price .period {
+  font-size: 13px;
+  margin: 2px 0px 0px 0px;
+}
+.plan .item-list {
+  list-style: none !important;
+  margin: 0;
+  padding: 0px 0px 0px 0px !important;
+}
+.plan .item-list > li {
+  padding: 12px 36px 12px 36px;
+  border-top-width: 1px;
+  border-top-style: solid;
+}
+.plan .plan-button {
+  border-top-width: 1px;
+  border-top-style: solid;
+  padding: 36px 36px 36px 36px;
+}
+.plan .plan-button .btn {
+  margin-top: 0;
+}
+@media (min-width: 960px) {
+  .plan.plan-most-popular {
+    position: relative;
+    z-index: 2;
+    margin: -36px 0px 0px 0px !important;
+  }
+  .plan.plan-most-popular > .plan-container .plan-title {
+    padding: 54px 36px 54px 36px;
+  }
+  .plan.plan-most-popular > .plan-container .plan-button {
+    padding: 54px 36px 54px 36px;
+  }
+}
+@media (min-width: 960px) {
+  .col-no-gutter .plan {
+    margin-left: -1px !important;
+  }
+}

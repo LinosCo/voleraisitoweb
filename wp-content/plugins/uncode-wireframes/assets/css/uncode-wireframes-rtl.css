@@ -1,0 +1,18 @@
+.rtl .wireframe-categories-navigation {
+	left: auto;
+	right: 0;
+}
+.rtl .wireframe-categories-navigation__list .count {
+	float: left;
+}
+.rtl .vc_templates-list-default_templates {
+	margin-left: -18px !important;
+	margin-right: 226px !important;
+}
+.rtl .vc_edit-form-tab[data-tab="default_templates"] {
+	margin: -24px 0 -24px -24px;
+}
+.rtl .wireframe-loading-icon {
+	left: auto;
+	right: 248px;
+}

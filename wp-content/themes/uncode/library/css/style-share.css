@@ -1,0 +1,302 @@
+/*
+----------------------------------------------------------
+
+#Share
+
+----------------------------------------------------------
+*/
+.share-module {
+  margin: 18px 0px 0px 0px;
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+}
+.share-module-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+/*
+----------------------------------------------------------
+
+#Share
+
+----------------------------------------------------------
+*/
+.share-button {
+  display: inline-block !important;
+  min-height: 28px;
+  width: 34px;
+  position: relative;
+  top: -2px;
+}
+.share-button.share-bigger {
+  min-height: 44px;
+}
+div[class*=sharer-].share-button {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+div[class*=sharer-].share-button.social-center {
+  margin: auto;
+}
+div[class*=sharer-].share-button.social-right {
+  margin-left: auto;
+}
+div[class*=sharer-].share-button.share-vertical .social {
+  display: none;
+}
+div[class*=sharer-].share-button.share-vertical .social.active {
+  display: block;
+}
+.uncode-share .share-title {
+  display: inline-block;
+  padding-right: 0px;
+  margin: 0px;
+  line-height: 36px;
+  vertical-align: top;
+}
+div[class*=sharer-].share-button [class*=social-]:before {
+  font-family: 'uncodeicon' !important;
+}
+div[class*=sharer-].share-button label {
+  cursor: pointer;
+  margin: 0;
+  padding: 5px 8px;
+  display: inline-block;
+  transition: color 200ms ease-in-out, background-color 200ms ease-in-out, border-color 200ms ease-in-out;
+  border-radius: 2px;
+}
+div[class*=sharer-].share-button label span {
+  display: none;
+}
+div[class*=sharer-].share-button .social {
+  transition: color 200ms ease-in-out, background-color 200ms ease-in-out, border-color 200ms ease-in-out;
+  margin-left: 0;
+  opacity: 0;
+}
+div[class*=sharer-].share-button .social.top {
+  transform-origin: 0 0;
+  margin-top: -180px;
+}
+div[class*=sharer-].share-button .social.load {
+  -webkit-transition: none !important;
+  transition: none !important;
+}
+div[class*=sharer-].share-button .social.active {
+  transition: color 200ms ease-in-out, background-color 200ms ease-in-out, border-color 200ms ease-in-out;
+  opacity: 1;
+}
+div[class*=sharer-].share-button .social.active.top {
+  transform: scale(1) translateY(-30px);
+}
+div[class*=sharer-].share-button .social ul {
+  color: #ffffff;
+  margin: auto;
+  padding: 2px !important;
+  display: table;
+  table-layout: fixed;
+  background-color: #222;
+  border-radius: 1px;
+}
+div[class*=sharer-].share-button .social ul:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  bottom: -5px;
+  margin-top: -5px;
+  border-width: 5px 5px 0;
+  border-top-color: #222;
+  left: 50%;
+  margin-left: -5px;
+}
+.share-button .social ul,
+.share-button .social {
+  position: relative;
+  z-index: 1;
+}
+div[class*=sharer-].share-button .social ul li {
+  cursor: pointer;
+  text-align: center;
+  display: block !important;
+  position: relative;
+  z-index: 2;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  transition: background-color 400ms ease-out;
+}
+div[class*=sharer-].share-button .social ul li:before {
+  transition: color 400ms ease-out;
+}
+.share-button:not(.only-icon) .social ul li[class*=facebook]:hover,
+.share-button:not(.only-icon) .social ul li[class*=facebook]:focus {
+  background-color: #3b5998;
+}
+.share-button:not(.only-icon) .social ul li[class*=twitter]:hover,
+.share-button:not(.only-icon) .social ul li[class*=twitter]:focus {
+  background-color: #3b8aca;
+}
+.share-button:not(.only-icon) .social ul li[class*=gplus]:hover,
+.share-button:not(.only-icon) .social ul li[class*=gplus]:focus {
+  background-color: #d7473d;
+}
+.share-button:not(.only-icon) .social ul li[class*=pinterest]:hover,
+.share-button:not(.only-icon) .social ul li[class*=pinterest]:focus {
+  background-color: #c5142b;
+}
+.share-button:not(.only-icon) .social ul li[class*=linkedin]:hover,
+.share-button:not(.only-icon) .social ul li[class*=linkedin]:focus {
+  background-color: #2c8cc0;
+}
+.share-button:not(.only-icon) .social ul li[class*=whatsapp]:hover,
+.share-button:not(.only-icon) .social ul li[class*=whatsapp]:focus {
+  background-color: #25d366;
+}
+.share-button:not(.only-icon) .social ul li[class*=xing]:hover,
+.share-button:not(.only-icon) .social ul li[class*=xing]:focus {
+  background-color: #126567;
+}
+.share-button:not(.only-icon) .social ul li[class*=paper-plane]:hover,
+.share-button:not(.only-icon) .social ul li[class*=paper-plane]:focus {
+  background-color: #999;
+}
+.share-button.only-icon .social ul li[class*=facebook]:hover:before,
+.share-button.only-icon .social ul li[class*=facebook]:focus:before {
+  color: #3b5998;
+}
+.share-button.only-icon .social ul li[class*=twitter]:hover:before,
+.share-button.only-icon .social ul li[class*=twitter]:focus:before {
+  color: #3b8aca;
+}
+.share-button.only-icon .social ul li[class*=gplus]:hover:before,
+.share-button.only-icon .social ul li[class*=gplus]:focus:before {
+  color: #d7473d;
+}
+.share-button.only-icon .social ul li[class*=pinterest]:hover:before,
+.share-button.only-icon .social ul li[class*=pinterest]:focus:before {
+  color: #c5142b;
+}
+.share-button.only-icon .social ul li[class*=linkedin]:hover:before,
+.share-button.only-icon .social ul li[class*=linkedin]:focus:before {
+  color: #2c8cc0;
+}
+.share-button.only-icon .social ul li[class*=whatsapp]:hover:before,
+.share-button.only-icon .social ul li[class*=whatsapp]:focus:before {
+  color: #25d366;
+}
+.share-button.only-icon .social ul li[class*=xing]:hover:before,
+.share-button.only-icon .social ul li[class*=xing]:focus:before {
+  color: #126567;
+}
+.share-button.only-icon .social ul li[class*=paper-plane]:hover:before,
+.share-button.only-icon .social ul li[class*=paper-plane]:focus:before {
+  color: #999;
+}
+.share-button.only-icon .social ul li[class*=threads]:hover:before,
+.share-button.only-icon .social ul li[class*=threads]:focus:before {
+  color: #ff3040;
+}
+.share-button.only-icon .social ul li[class*=bluesky]:hover:before,
+.share-button.only-icon .social ul li[class*=bluesky]:focus:before {
+  color: #1083fe;
+}
+.share-button.only-icon .social ul li:first-child {
+  margin-left: -9px;
+}
+.share-button.only-icon .social ul li:last-child {
+  margin-right: -9px;
+}
+.share-button.only-icon {
+  display: inline-block !important;
+  margin-bottom: -10px;
+  top: 1px;
+}
+.social-export:before {
+  content: "\f1e0" !important;
+  font-size: 16px;
+}
+.social-facebook:before {
+  content: "\f09a" !important;
+}
+.social-twitter:before {
+  content: "\e942" !important;
+  font-weight: bold;
+}
+.social-threads:before {
+  content: "\e94b" !important;
+  font-size: 0.98em;
+}
+.social-bluesky:before {
+  content: "\e949" !important;
+}
+.social-gplus:before {
+  content: "\f0d5" !important;
+}
+.social-pinterest:before {
+  content: "\f0d2" !important;
+}
+.social-linkedin:before {
+  content: "\f0e1" !important;
+}
+.social-whatsapp:before {
+  content: "\f232" !important;
+}
+.social-xing:before {
+  content: "\f168" !important;
+}
+.social-paper-plane:before {
+  content: "\f1d8" !important;
+}
+div[class*=sharer-].share-button.share-inline {
+  width: auto;
+  display: inline-block !important;
+}
+.share-button.share-inline .social.top {
+  opacity: 1;
+  margin-top: 0px !important;
+  width: auto;
+  float: none !important;
+}
+.share-button.share-inline .social.top ul {
+  width: auto;
+  background: none;
+  border: none;
+  color: inherit;
+  margin: 0px;
+}
+.social-center.share-button.share-inline .social.top ul {
+  margin: auto;
+}
+.social-right.share-button.share-inline .social.top ul {
+  margin-left: auto;
+}
+.share-button.share-inline .social.top li {
+  display: inline-block !important;
+  margin-right: 2px;
+}
+.share-button.share-inline .social.top li:hover {
+  color: white !important;
+}
+.share-button.share-inline .social-export {
+  display: none;
+}
+div[class*=sharer-].share-button.share-inline .social ul:after {
+  display: none;
+}
+.share-button.share-inline.share-bigger li {
+  font-size: 1.5em;
+  width: 40px !important;
+  height: 40px !important;
+  line-height: 40px !important;
+}
+.portfolio-share {
+  padding-top: 18px;
+}
+.sharedaddy {
+  margin-top: 36px;
+}

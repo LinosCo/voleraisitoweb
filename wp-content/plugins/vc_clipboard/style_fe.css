@@ -1,0 +1,30 @@
+.vc_clipboard_element span {
+	cursor: pointer;
+}
+
+.compose-mode .vc-main-sortable-container .vc_controls-column>div>.vc_active.element-vc_column .vc_advanced,
+.compose-mode .vc-main-sortable-container .vc_controls-column>div>.vc_active.element-vc_column_inner .vc_advanced,
+.compose-mode .vc-main-sortable-container .vc_controls-container>div>.vc_active.element-vc_column .vc_advanced,
+.compose-mode .vc-main-sortable-container .vc_controls-container>div>.vc_active.element-vc_column_inner .vc_advanced,
+.compose-mode .vc-main-sortable-container .vc_controls-row>div>.vc_active.element-vc_column .vc_advanced,
+.compose-mode .vc-main-sortable-container .vc_controls-row>div>.vc_active.element-vc_column_inner .vc_advanced {
+	width: 200px;
+}
+
+.compose-mode .vc-main-sortable-container .vc_controls-column>div>.vc_active.vc_element .vc_advanced,
+.compose-mode .vc-main-sortable-container .vc_controls-column>div>.vc_active.vc_parent .vc_advanced,
+.compose-mode .vc-main-sortable-container .vc_controls-container>div>.vc_active.vc_element .vc_advanced,
+.compose-mode .vc-main-sortable-container .vc_controls-container>div>.vc_active.vc_parent .vc_advanced,
+.compose-mode .vc-main-sortable-container .vc_controls-row>div>.vc_active.vc_element .vc_advanced,
+.compose-mode .vc-main-sortable-container .vc_controls-row>div>.vc_active.vc_parent .vc_advanced {
+    width: 230px;
+}
+
+.compose-mode .vc-main-sortable-container .vc_controls-column>div>.vc_active.parent-vc_row .vc_advanced,
+.compose-mode .vc-main-sortable-container .vc_controls-column>div>.vc_active.parent-vc_row_inner .vc_advanced,
+.compose-mode .vc-main-sortable-container .vc_controls-container>div>.vc_active.parent-vc_row .vc_advanced,
+.compose-mode .vc-main-sortable-container .vc_controls-container>div>.vc_active.parent-vc_row_inner .vc_advanced,
+.compose-mode .vc-main-sortable-container .vc_controls-row>div>.vc_active.parent-vc_row .vc_advanced,
+.compose-mode .vc-main-sortable-container .vc_controls-row>div>.vc_active.parent-vc_row_inner .vc_advanced {
+	width: 260px;
+}

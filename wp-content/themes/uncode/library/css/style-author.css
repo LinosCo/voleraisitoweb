@@ -1,0 +1,137 @@
+/*
+----------------------------------------------------------
+
+#Author profile
+
+----------------------------------------------------------
+*/
+.author-profile {
+  display: table;
+  width: 100%;
+}
+.author-profile.author-profile-box-left .author-profile-content,
+.author-profile.author-profile-box-right .author-profile-content,
+.author-profile.author-profile-box-left .uncode-avatar-wrapper,
+.author-profile.author-profile-box-right .uncode-avatar-wrapper {
+  display: table-cell;
+  vertical-align: top;
+}
+@media (max-width: 959px) {
+  .author-profile.author-profile-box-left .author-profile-content,
+  .author-profile.author-profile-box-right .author-profile-content,
+  .author-profile.author-profile-box-left .uncode-avatar-wrapper,
+  .author-profile.author-profile-box-right .uncode-avatar-wrapper {
+    display: block;
+    padding-left: 0 !important;
+  }
+}
+@media (min-width: 960px) {
+  .author-profile.author-profile-box-left .author-profile-content > *:first-child,
+  .author-profile.author-profile-box-right .author-profile-content > *:first-child,
+  .author-profile.author-profile-box-left .uncode-avatar-wrapper > *:first-child,
+  .author-profile.author-profile-box-right .uncode-avatar-wrapper > *:first-child {
+    margin-top: 0;
+  }
+}
+.author-profile .uncode-avatar-wrapper img {
+  border-radius: 0 !important;
+  vertical-align: top;
+}
+.author-profile.author-profile-box-top {
+  display: inline-table;
+}
+.author-profile.author-profile-box-top .author-profile-content,
+.author-profile.author-profile-box-top .uncode-avatar-wrapper {
+  display: inline-block;
+  width: 100%;
+}
+.author-profile.author-profile-box-left.has-thumb .author-profile-content {
+  padding-left: 36px;
+}
+.author-profile.author-profile-box-right.has-thumb .author-profile-content {
+  padding-right: 36px;
+}
+.author-profile .btn-container {
+  margin-top: 18px;
+}
+.author-profile .contact-methods {
+  margin-top: 27px;
+}
+.author-profile .contact-methods ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.author-profile .contact-methods li {
+  display: inline-block;
+  margin-right: 2px;
+}
+.rtl .author-profile .contact-methods li {
+  margin-left: 2px;
+  margin-right: auto;
+}
+.author-profile .contact-methods li a {
+  display: block;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  width: 24px;
+  transition: background-color 400ms ease-out, color 400ms ease-out;
+}
+.author-profile .contact-methods li a:hover {
+  color: white !important;
+}
+.author-profile .contact-methods li a .fa {
+  display: block;
+  line-height: inherit;
+  margin: 0;
+  width: inherit;
+}
+.author-profile .contact-methods li.contact-method-facebook a:hover,
+.author-profile .contact-methods li.contact-method-facebook a:focus {
+  background-color: #3b5998;
+}
+.author-profile .contact-methods li.contact-method-twitter a:hover,
+.author-profile .contact-methods li.contact-method-twitter a:focus {
+  background-color: #3b8aca;
+}
+.author-profile .contact-methods li.contact-method-googleplus a:hover,
+.author-profile .contact-methods li.contact-method-googleplus a:focus {
+  background-color: #d7473d;
+}
+.author-profile .contact-methods li.contact-method-dribbble a:hover,
+.author-profile .contact-methods li.contact-method-dribbble a:focus {
+  background-color: #ea4c89;
+}
+.author-profile .contact-methods li.contact-method-instagram a:hover,
+.author-profile .contact-methods li.contact-method-instagram a:focus {
+  background-color: #37658d;
+}
+.author-profile .contact-methods li.contact-method-pinterest a:hover,
+.author-profile .contact-methods li.contact-method-pinterest a:focus {
+  background-color: #c5142b;
+}
+.author-profile .contact-methods li.contact-method-xing a:hover,
+.author-profile .contact-methods li.contact-method-xing a:focus {
+  background-color: #126567;
+}
+.author-profile .contact-methods li.contact-method-youtube a:hover,
+.author-profile .contact-methods li.contact-method-youtube a:focus {
+  background-color: #c4302b;
+}
+.author-profile .contact-methods li.contact-method-vimeo a:hover,
+.author-profile .contact-methods li.contact-method-vimeo a:focus {
+  background-color: #4ebbff;
+}
+.author-profile .contact-methods li.contact-method-linkedin a:hover,
+.author-profile .contact-methods li.contact-method-linkedin a:focus {
+  background-color: #2c8cc0;
+}
+.author-profile .contact-methods li.contact-method-tumblr a:hover,
+.author-profile .contact-methods li.contact-method-tumblr a:focus {
+  background-color: #32506d;
+}
+.author-profile .contact-methods li.contact-method-link a:hover,
+.author-profile .contact-methods li.contact-method-link a:focus {
+  background-color: #555555;
+}

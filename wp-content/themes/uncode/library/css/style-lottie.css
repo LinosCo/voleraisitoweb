@@ -1,0 +1,12 @@
+.uncode-lottie {
+  line-height: 0;
+}
+.uncode-lottie .uncode-lottie-wrap {
+  display: inline-block;
+  width: 100%;
+}
+.text-center.uncode-lottie .uncode-lottie-wrap,
+.text-right.uncode-lottie .uncode-lottie-wrap,
+.text-left.uncode-lottie .uncode-lottie-wrap {
+  width: auto;
+}
