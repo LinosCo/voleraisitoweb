@@ -2,12 +2,12 @@
   font-family: 'Material Icons';
   font-style: normal;
   font-weight: 400;
-  src: url(https://https://linosco.github.io/voleraisitoweb/wp-content/plugins/revslider/sr6/assets/fonts/material/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: url(https://linosco.github.io/voleraisitoweb/wp-content/plugins/revslider/sr6/assets/fonts/material/MaterialIcons-Regular.eot); /* For IE6-8 */
   src: local('Material Icons'),
        local('MaterialIcons-Regular'),
-       url(https://https://linosco.github.io/voleraisitoweb/wp-content/plugins/revslider/sr6/assets/fonts/material/MaterialIcons-Regular.woff2) format('woff2'),
-       url(https://https://linosco.github.io/voleraisitoweb/wp-content/plugins/revslider/sr6/assets/fonts/material/MaterialIcons-Regular.woff) format('woff'),
-       url(https://https://linosco.github.io/voleraisitoweb/wp-content/plugins/revslider/sr6/assets/fonts/material/MaterialIcons-Regular.ttf) format('truetype');
+       url(https://linosco.github.io/voleraisitoweb/wp-content/plugins/revslider/sr6/assets/fonts/material/MaterialIcons-Regular.woff2) format('woff2'),
+       url(https://linosco.github.io/voleraisitoweb/wp-content/plugins/revslider/sr6/assets/fonts/material/MaterialIcons-Regular.woff) format('woff'),
+       url(https://linosco.github.io/voleraisitoweb/wp-content/plugins/revslider/sr6/assets/fonts/material/MaterialIcons-Regular.ttf) format('truetype');
 }
 
 .material-icons {

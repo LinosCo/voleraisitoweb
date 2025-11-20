@@ -137,7 +137,7 @@ View-port and gutter both get little noise background to give it a real feel.
 */
 .cm-s-solarized.CodeMirror,
 .cm-s-solarized .CodeMirror-gutters {
-  /*background-image: url(https://https://linosco.github.io/voleraisitoweb/wp-content/plugins/LayerSlider/assets/static/img/cm-noise.png);*/
+  /*background-image: url(https://linosco.github.io/voleraisitoweb/wp-content/plugins/LayerSlider/assets/static/img/cm-noise.png);*/
 }
 
 
@@ -199,5 +199,5 @@ View-port and gutter both get little noise background to give it a real feel.
 }
 
 .CodeMirror .cm-tab {
-  background: url(https://https://linosco.github.io/voleraisitoweb/wp-content/plugins/LayerSlider/assets/static/codemirror/theme/cm-tab.png) center right no-repeat;
+  background: url(https://linosco.github.io/voleraisitoweb/wp-content/plugins/LayerSlider/assets/static/codemirror/theme/cm-tab.png) center right no-repeat;
 }

@@ -14,7 +14,7 @@
         "chatbot",
         "openai"
     ],
-    "author": "voler.ai (https://https://linosco.github.io/voleraisitoweb)/",
+    "author": "voler.ai (https://linosco.github.io/voleraisitoweb)/",
     "license": "GPL-2.0-or-later",
     "devDependencies": {
         "eslint": "^8.0.0",

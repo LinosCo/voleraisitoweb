@@ -375,7 +375,7 @@ body:not(.uncode-accessible) .mejs-mediaelement {
   opacity: 1;
 }
 .mejs-overlay-loading:before {
-  background-image: url(https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/oval-anim-dark.svg);
+  background-image: url(https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/oval-anim-dark.svg);
   background-repeat: no-repeat;
   display: -webkit-box;
   display: -webkit-flex;
@@ -808,7 +808,7 @@ body:not(.uncode-accessible) .mejs-controls .mejs-time-rail .mejs-time-float {
 }
 .mejs-captions-text {
   padding: 3px 5px;
-  background: url(https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/css/background.png);
+  background: url(https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/css/background.png);
   background: rgba(20, 20, 20, 0.8);
 }
 .me-cannotplay a {

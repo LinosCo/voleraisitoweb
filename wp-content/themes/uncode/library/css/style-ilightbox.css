@@ -51,7 +51,7 @@ body:not(.uncode-accessible) .ilightbox-holder .ilightbox-container .ilightbox-s
   outline: 0;
 }
 .ilightbox-closedhand * {
-  cursor: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/css/closedhand.cur'), default !important;
+  cursor: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/css/closedhand.cur'), default !important;
 }
 .ilightbox-overlay {
   display: none;
@@ -267,16 +267,16 @@ body:not(.uncode-accessible) .ilightbox-holder .ilightbox-container .ilightbox-s
   background-position: 50%;
 }
 .ilightbox-holder .ilightbox-container .ilightbox-social ul li.facebook a {
-  background-image: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/social_icons/facebook_16.png');
+  background-image: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/social_icons/facebook_16.png');
 }
 .ilightbox-holder .ilightbox-container .ilightbox-social ul li.digg a {
-  background-image: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/social_icons/digg_16.png');
+  background-image: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/social_icons/digg_16.png');
 }
 .ilightbox-holder .ilightbox-container .ilightbox-social ul li.twitter a {
-  background-image: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/social_icons/twitter_16.png');
+  background-image: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/social_icons/twitter_16.png');
 }
 .ilightbox-holder .ilightbox-container .ilightbox-social ul li.reddit a {
-  background-image: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/social_icons/reddit_16.png');
+  background-image: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/social_icons/reddit_16.png');
 }
 .ilightbox-holder .ilightbox-alert {
   display: block;
@@ -348,7 +348,7 @@ body:not(.uncode-accessible) .ilightbox-holder .ilightbox-container .ilightbox-s
   background: #141618;
 }
 .ilightbox-loader.black div {
-  background: transparent url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/oval-anim-dark.svg') no-repeat center;
+  background: transparent url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/oval-anim-dark.svg') no-repeat center;
 }
 .ilightbox-holder.black .ilightbox-container .ilightbox-caption {
   background-size: 100% 100%;
@@ -358,11 +358,11 @@ body:not(.uncode-accessible) .ilightbox-holder .ilightbox-container .ilightbox-s
   text-align: center;
 }
 .ilightbox-holder.black .ilightbox-alert {
-  background: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/black-skin/alert.png') no-repeat center top;
+  background: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/black-skin/alert.png') no-repeat center top;
   color: #555;
 }
 .ilightbox-toolbar.black a {
-  background: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/black-skin/buttons.png') no-repeat 7px 6px;
+  background: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/black-skin/buttons.png') no-repeat 7px 6px;
 }
 .ilightbox-toolbar.black a.ilightbox-close {
   position: absolute;
@@ -452,30 +452,30 @@ body:not(.uncode-accessible) .ilightbox-holder .ilightbox-container .ilightbox-s
   background-position: 50% !important;
 }
 .isMobile .ilightbox-toolbar.black a.ilightbox-fullscreen {
-  background-image: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/black-skin/fullscreen-icon-64.png');
-  background-image: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/black-skin/fullscreen-icon-ie.png')\9;
+  background-image: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/black-skin/fullscreen-icon-64.png');
+  background-image: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/black-skin/fullscreen-icon-ie.png')\9;
 }
 .isMobile .ilightbox-toolbar.black a.ilightbox-close {
-  background-image: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/black-skin/x-mark-icon-64.png');
-  background-image: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/black-skin/x-mark-icon-ie.png')\9;
+  background-image: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/black-skin/x-mark-icon-64.png');
+  background-image: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/black-skin/x-mark-icon-ie.png')\9;
 }
 .isMobile .ilightbox-toolbar.black a.ilightbox-next-button {
-  background-image: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/black-skin/arrow-next-icon-64.png');
-  background-image: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/black-skin/arrow-next-icon-ie.png')\9;
+  background-image: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/black-skin/arrow-next-icon-64.png');
+  background-image: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/black-skin/arrow-next-icon-ie.png')\9;
   background-position: 52% 50%;
 }
 .isMobile .ilightbox-toolbar.black a.ilightbox-prev-button {
-  background-image: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/black-skin/arrow-prev-icon-64.png');
-  background-image: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/black-skin/arrow-prev-icon-ie.png')\9;
+  background-image: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/black-skin/arrow-prev-icon-64.png');
+  background-image: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/black-skin/arrow-prev-icon-ie.png')\9;
   background-position: 48% 50%;
 }
 .isMobile .ilightbox-toolbar.black a.ilightbox-play {
-  background-image: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/black-skin/play-icon-64.png');
-  background-image: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/black-skin/play-icon-ie.png')\9;
+  background-image: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/black-skin/play-icon-64.png');
+  background-image: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/black-skin/play-icon-ie.png')\9;
 }
 .isMobile .ilightbox-toolbar.black a.ilightbox-pause {
-  background-image: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/black-skin/pause-icon-64.png');
-  background-image: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/black-skin/pause-icon-ie.png')\9;
+  background-image: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/black-skin/pause-icon-64.png');
+  background-image: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/black-skin/pause-icon-ie.png')\9;
 }
 .ilightbox-holder.black .ilightbox-inner-toolbar .ilightbox-title {
   font-size: 14px;
@@ -484,7 +484,7 @@ body:not(.uncode-accessible) .ilightbox-holder .ilightbox-container .ilightbox-s
   color: #ffffff;
 }
 .ilightbox-thumbnails.black .ilightbox-thumbnails-grid .ilightbox-thumbnail .ilightbox-thumbnail-video {
-  background: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/black-skin/thumb-overlay-play.png') no-repeat center;
+  background: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/black-skin/thumb-overlay-play.png') no-repeat center;
 }
 .ilightbox-button.black.disabled {
   opacity: 0.1;
@@ -501,7 +501,7 @@ body:not(.uncode-accessible) .ilightbox-holder .ilightbox-container .ilightbox-s
   width: 20%;
   height: 38px;
   margin: auto;
-  background: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/black-skin/arrows_vertical.png') no-repeat 50% -125px;
+  background: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/black-skin/arrows_vertical.png') no-repeat 50% -125px;
 }
 .ilightbox-button.ilightbox-prev-button.black {
   top: 0;
@@ -518,7 +518,7 @@ body:not(.uncode-accessible) .ilightbox-holder .ilightbox-container .ilightbox-s
   bottom: auto\9;
   width: 38px;
   height: 20%;
-  background-image: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/black-skin/arrows_horizontal.png');
+  background-image: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/black-skin/arrows_horizontal.png');
   background-position: -125px 50%;
 }
 .ilightbox-button.ilightbox-prev-button.black.horizontal {
@@ -535,7 +535,7 @@ body:not(.uncode-accessible) .ilightbox-holder .ilightbox-container .ilightbox-s
   background: #ffffff;
 }
 .ilightbox-loader.white div {
-  background: transparent url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/oval-anim-light.svg') no-repeat center;
+  background: transparent url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/oval-anim-light.svg') no-repeat center;
 }
 .ilightbox-holder.white .ilightbox-container .ilightbox-caption {
   background-size: 100% 100%;
@@ -545,11 +545,11 @@ body:not(.uncode-accessible) .ilightbox-holder .ilightbox-container .ilightbox-s
   text-align: center;
 }
 .ilightbox-holder.white .ilightbox-alert {
-  background: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/alert.png') no-repeat center top;
+  background: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/alert.png') no-repeat center top;
   color: #89949B;
 }
 .ilightbox-toolbar.white a {
-  background: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/buttons.png') no-repeat 7px 6px;
+  background: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/buttons.png') no-repeat 7px 6px;
 }
 .ilightbox-toolbar.white a.disabled {
   opacity: 0.2;
@@ -609,43 +609,43 @@ body:not(.uncode-accessible) .ilightbox-holder .ilightbox-container .ilightbox-s
   background-position: 50%;
 }
 .isMobile .ilightbox-toolbar.white a.ilightbox-fullscreen {
-  background-image: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/fullscreen-icon-64.png');
-  background-image: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/fullscreen-icon-ie.png')\9;
+  background-image: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/fullscreen-icon-64.png');
+  background-image: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/fullscreen-icon-ie.png')\9;
 }
 .isMobile .ilightbox-toolbar.white a.ilightbox-close {
-  background-image: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/x-mark-icon-64.png');
-  background-image: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/x-mark-icon-ie.png')\9;
+  background-image: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/x-mark-icon-64.png');
+  background-image: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/x-mark-icon-ie.png')\9;
 }
 .isMobile .ilightbox-toolbar.white a.ilightbox-next-button {
-  background-image: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/arrow-next-icon-64.png');
-  background-image: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/arrow-next-icon-ie.png')\9;
+  background-image: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/arrow-next-icon-64.png');
+  background-image: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/arrow-next-icon-ie.png')\9;
   background-position: 52% 50%;
 }
 .isMobile .ilightbox-toolbar.white a.ilightbox-next-button.disabled {
-  background-image: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/arrow-next-icon-64.png');
-  background-image: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/arrow-next-icon-ie.png')\9;
+  background-image: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/arrow-next-icon-64.png');
+  background-image: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/arrow-next-icon-ie.png')\9;
   background-position: 52% 50%;
 }
 .isMobile .ilightbox-toolbar.white a.ilightbox-prev-button {
-  background-image: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/arrow-prev-icon-64.png');
-  background-image: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/arrow-prev-icon-ie.png')\9;
+  background-image: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/arrow-prev-icon-64.png');
+  background-image: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/arrow-prev-icon-ie.png')\9;
   background-position: 48% 50%;
 }
 .isMobile .ilightbox-toolbar.white a.ilightbox-prev-button.disabled {
-  background-image: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/arrow-prev-icon-64.png');
-  background-image: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/arrow-prev-icon-ie.png')\9;
+  background-image: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/arrow-prev-icon-64.png');
+  background-image: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/arrow-prev-icon-ie.png')\9;
   background-position: 48% 50%;
 }
 .isMobile .ilightbox-toolbar.white a.ilightbox-play {
-  background-image: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/play-icon-64.png');
-  background-image: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/play-icon-ie.png')\9;
+  background-image: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/play-icon-64.png');
+  background-image: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/play-icon-ie.png')\9;
 }
 .isMobile .ilightbox-toolbar.white a.ilightbox-pause {
-  background-image: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/pause-icon-64.png');
-  background-image: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/pause-icon-ie.png')\9;
+  background-image: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/pause-icon-64.png');
+  background-image: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/pause-icon-ie.png')\9;
 }
 .ilightbox-thumbnails.white .ilightbox-thumbnails-grid .ilightbox-thumbnail .ilightbox-thumbnail-video {
-  background: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/thumb-overlay-play.png') no-repeat center;
+  background: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/thumb-overlay-play.png') no-repeat center;
 }
 .ilightbox-holder.white .ilightbox-inner-toolbar .ilightbox-title {
   font-size: 14px;
@@ -675,7 +675,7 @@ body:not(.uncode-accessible) .ilightbox-holder .ilightbox-container .ilightbox-s
   width: 20%;
   height: 38px;
   margin: auto;
-  background: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/arrows_vertical.png') no-repeat 50% -125px;
+  background: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/arrows_vertical.png') no-repeat 50% -125px;
 }
 .ilightbox-button.ilightbox-prev-button.white {
   top: 0;
@@ -692,7 +692,7 @@ body:not(.uncode-accessible) .ilightbox-holder .ilightbox-container .ilightbox-s
   bottom: auto\9;
   width: 38px;
   height: 20%;
-  background-image: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/arrows_horizontal.png');
+  background-image: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/white-skin/arrows_horizontal.png');
   background-position: -125px 50%;
 }
 .ilightbox-button.ilightbox-prev-button.white.horizontal {

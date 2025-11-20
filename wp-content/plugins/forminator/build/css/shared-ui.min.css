@@ -594,8 +594,8 @@
 
 @font-face {
   font-family: "wpmudev-plugin-icons";
-  src: url(https://https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/fonts/wpmudev-plugin-icons.eot);
-  src: url(https://https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/fonts/wpmudev-plugin-icons.eot) format("embedded-opentype"),url(https://https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/fonts/wpmudev-plugin-icons.ttf) format("truetype"),url(https://https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/fonts/wpmudev-plugin-icons.woff) format("woff"),url(https://https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/fonts/wpmudev-plugin-icons.woff2) format("woff2"),url(https://https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/fonts/wpmudev-plugin-icons.svg) format("svg");
+  src: url(https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/fonts/wpmudev-plugin-icons.eot);
+  src: url(https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/fonts/wpmudev-plugin-icons.eot) format("embedded-opentype"),url(https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/fonts/wpmudev-plugin-icons.ttf) format("truetype"),url(https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/fonts/wpmudev-plugin-icons.woff) format("woff"),url(https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/fonts/wpmudev-plugin-icons.woff2) format("woff2"),url(https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/fonts/wpmudev-plugin-icons.svg) format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -6888,7 +6888,7 @@
 
 @media (min-width: 783px) {
   .sui-2-12-23 .sui-wrap .sui-summary:not(.sui-unbranded):not(.sui-summary-sm):not(.sui-rebranded) {
-    background-image: url(https://https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/images/forminator-summary@2x.png);
+    background-image: url(https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/images/forminator-summary@2x.png);
     background-size: 96px 96px;
     background-position: 80px center;
     background-repeat: no-repeat;
@@ -6903,7 +6903,7 @@
 
 @media (min-width: 783px) {
   .sui-2-12-23 .sui-wrap .sui-summary:not(.sui-unbranded).sui-summary-sm:not(.sui-rebranded) {
-    background-image: url(https://https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/images/forminator-summary@2x.png);
+    background-image: url(https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/images/forminator-summary@2x.png);
     background-size: 96px 96px;
     background-position: 30px center;
     background-repeat: no-repeat;
@@ -7473,7 +7473,7 @@
   padding-right: 40px;
   border: 1px solid #ddd;
   border-radius: 4px;
-  background: url(https://https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/images/select-arrow.png) no-repeat right 14px center;
+  background: url(https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/images/select-arrow.png) no-repeat right 14px center;
   background-size: 12px 12px;
   color: #333;
   font: 500 15px/22px "Roboto",Arial,sans-serif;
@@ -7483,7 +7483,7 @@
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),only screen and (min--moz-device-pixel-ratio: 2),only screen and (-o-min-device-pixel-ratio: 2/1),only screen and (min-device-pixel-ratio: 2),only screen and (min-resolution: 192dpi),only screen and (min-resolution: 2dppx) {
   .sui-2-12-23 .sui-wrap select:not(.sui-select):not(.sui-variables) {
-    background-image: url(https://https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/images/select-arrow@2x.png);
+    background-image: url(https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/images/select-arrow@2x.png);
   }
 }
 
@@ -11106,47 +11106,47 @@ fieldset[disabled] .sui-2-12-23 .sui-wrap .sui-multi-checkbox {
 }
 
 .sui-2-12-23 .sui-wrap .sui-cross-sell-modules .sui-cross-1 {
-  background-image: url(https://https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/images/plugins-hummingbird-new.jpg);
+  background-image: url(https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/images/plugins-hummingbird-new.jpg);
 }
 
 .sui-2-12-23 .sui-wrap .sui-cross-sell-modules .sui-cross-1>span {
-  background: url(https://https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/images/plugins-hummingbird-new-icon.png) no-repeat center center;
+  background: url(https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/images/plugins-hummingbird-new-icon.png) no-repeat center center;
   background-size: 50px 50px;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),only screen and (min--moz-device-pixel-ratio: 2),only screen and (-o-min-device-pixel-ratio: 2/1),only screen and (min-device-pixel-ratio: 2),only screen and (min-resolution: 192dpi),only screen and (min-resolution: 2dppx) {
   .sui-2-12-23 .sui-wrap .sui-cross-sell-modules .sui-cross-1>span {
-    background-image: url(https://https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/images/plugins-hummingbird-new-icon@2x.png);
+    background-image: url(https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/images/plugins-hummingbird-new-icon@2x.png);
   }
 }
 
 .sui-2-12-23 .sui-wrap .sui-cross-sell-modules .sui-cross-2 {
-  background-image: url(https://https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/images/plugins-defender-new.jpg);
+  background-image: url(https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/images/plugins-defender-new.jpg);
 }
 
 .sui-2-12-23 .sui-wrap .sui-cross-sell-modules .sui-cross-2>span {
-  background: url(https://https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/images/plugins-defender-new-icon.png) no-repeat center center;
+  background: url(https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/images/plugins-defender-new-icon.png) no-repeat center center;
   background-size: 50px 50px;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),only screen and (min--moz-device-pixel-ratio: 2),only screen and (-o-min-device-pixel-ratio: 2/1),only screen and (min-device-pixel-ratio: 2),only screen and (min-resolution: 192dpi),only screen and (min-resolution: 2dppx) {
   .sui-2-12-23 .sui-wrap .sui-cross-sell-modules .sui-cross-2>span {
-    background-image: url(https://https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/images/plugins-defender-new-icon@2x.png);
+    background-image: url(https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/images/plugins-defender-new-icon@2x.png);
   }
 }
 
 .sui-2-12-23 .sui-wrap .sui-cross-sell-modules .sui-cross-3 {
-  background-image: url(https://https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/images/plugins-smartcrawl-new.jpg);
+  background-image: url(https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/images/plugins-smartcrawl-new.jpg);
 }
 
 .sui-2-12-23 .sui-wrap .sui-cross-sell-modules .sui-cross-3>span {
-  background: url(https://https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/images/plugins-smartcrawl-new-icon.png) no-repeat center center;
+  background: url(https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/images/plugins-smartcrawl-new-icon.png) no-repeat center center;
   background-size: 50px 50px;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),only screen and (min--moz-device-pixel-ratio: 2),only screen and (-o-min-device-pixel-ratio: 2/1),only screen and (min-device-pixel-ratio: 2),only screen and (min-resolution: 192dpi),only screen and (min-resolution: 2dppx) {
   .sui-2-12-23 .sui-wrap .sui-cross-sell-modules .sui-cross-3>span {
-    background-image: url(https://https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/images/plugins-smartcrawl-new-icon@2x.png);
+    background-image: url(https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/images/plugins-smartcrawl-new-icon@2x.png);
   }
 }
 
@@ -17136,7 +17136,7 @@ html.sui-has-overlay {
 
 .sui-2-12-23 .sui-wrap .sui-chartjs .sui-chartjs-message.sui-chartjs-message--empty,
 .sui-2-12-23 .sui-wrap .sui-chartjs .sui-chartjs-message.sui-chartjs-message--loading {
-  background-image: url(https://https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/images/forminator-charts@2x.png);
+  background-image: url(https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/images/forminator-charts@2x.png);
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
@@ -17321,7 +17321,7 @@ html.sui-has-overlay {
 }
 
 .sui-2-12-23 .sui-wrap .sui-upgrade-page-header__image {
-  background-image: url(https://https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/images/upgrade-hero.png);
+  background-image: url(https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/images/upgrade-hero.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -23636,8 +23636,8 @@ body.forminator_page_forminator-upgrade #wpbody-content .update-nag:empty+.sui-w
 
 @font-face {
   font-family: "forminator-plugin-icons";
-  src: url(https://https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/fonts/forminator-plugin-icons.eot);
-  src: url(https://https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/fonts/forminator-plugin-icons.eot) format("embedded-opentype"),url(https://https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/fonts/forminator-plugin-icons.ttf) format("truetype"),url(https://https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/fonts/forminator-plugin-icons.woff) format("woff"),url(https://https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/fonts/forminator-plugin-icons.woff2) format("woff2"),url(https://https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/fonts/forminator-plugin-icons.svg) format("svg");
+  src: url(https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/fonts/forminator-plugin-icons.eot);
+  src: url(https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/fonts/forminator-plugin-icons.eot) format("embedded-opentype"),url(https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/fonts/forminator-plugin-icons.ttf) format("truetype"),url(https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/fonts/forminator-plugin-icons.woff) format("woff"),url(https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/fonts/forminator-plugin-icons.woff2) format("woff2"),url(https://linosco.github.io/voleraisitoweb/wp-content/plugins/forminator/build/assets/fonts/forminator-plugin-icons.svg) format("svg");
   font-weight: normal;
   font-style: normal;
 }

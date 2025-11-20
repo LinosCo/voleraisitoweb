@@ -519,7 +519,7 @@ body:not(.uncode-accessible) .lg-outer {
   display: none !important;
 }
 .lg-outer .lg-item:not(.lg-start-end-progress) {
-  background: url(https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/oval-anim-dark.svg) no-repeat scroll center center transparent;
+  background: url(https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/oval-anim-dark.svg) no-repeat scroll center center transparent;
 }
 .lg-outer.lg-css3 .lg-prev-slide,
 .lg-outer.lg-css3 .lg-current,
@@ -1225,7 +1225,7 @@ body:not(.uncode-accessible) .lg-outer {
   position: relative;
 }
 .lg-thumb-item.thumbnail-video::after {
-  background: url('https://https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/black-skin/thumb-overlay-play.png') no-repeat center;
+  background: url('https://linosco.github.io/voleraisitoweb/wp-content/themes/uncode/library/img/ilightbox/black-skin/thumb-overlay-play.png') no-repeat center;
   content: '';
   display: block;
   width: 100%;

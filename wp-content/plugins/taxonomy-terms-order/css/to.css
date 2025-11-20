@@ -7,7 +7,7 @@ h2.subtitle {font-size: 15px; font-weight: bold; padding: 20px 0 10px 0}
 #order-terms ul {list-style: none;}
 #order-terms ul.children {margin-left: 25px} 
 
-#order-terms #tto_sortable li > .item { border: 1px solid #E6E6E6;height: auto;line-height: 27px; padding-left: 10px;position: relative; text-shadow: 0 1px 0 #FFFFFF;width: auto;word-wrap: break-word;cursor: move;background: url("https://https://linosco.github.io/voleraisitoweb/wp-content/plugins/taxonomy-terms-order/images/gray-grad.png") repeat-x scroll left top #DFDFDF;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;transition:All 0.5s ease;-webkit-transition:All 0.5s ease;-moz-transition:All 0.5s ease;-o-transition:All 0.5s ease;}
+#order-terms #tto_sortable li > .item { border: 1px solid #E6E6E6;height: auto;line-height: 27px; padding-left: 10px;position: relative; text-shadow: 0 1px 0 #FFFFFF;width: auto;word-wrap: break-word;cursor: move;background: url("https://linosco.github.io/voleraisitoweb/wp-content/plugins/taxonomy-terms-order/images/gray-grad.png") repeat-x scroll left top #DFDFDF;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;transition:All 0.5s ease;-webkit-transition:All 0.5s ease;-moz-transition:All 0.5s ease;-o-transition:All 0.5s ease;}
 #order-terms #tto_sortable li > .item span { display: inline-block; line-height: 20px; padding: 5px 0; white-space: nowrap; font-weight: bold; cursor: pointer;}
 #order-terms #tto_sortable li > .item .options {float: right; padding: 0 10px 0 10px; }
 #order-terms #tto_sortable li > .item .options a {text-decoration: none; color: #3c434a;}
@@ -15,12 +15,12 @@ h2.subtitle {font-size: 15px; font-weight: bold; padding: 20px 0 10px 0}
 #order-terms #tto_sortable li > .item .options span {font-weight: normal}
 #order-terms ul.children {margin-left: 20px} 
 #order-terms .term_type_li ul {margin-top: 6px}
-#order-terms #nav-menu-header {background: url("https://https://linosco.github.io/voleraisitoweb/wp-content/plugins/taxonomy-terms-order/images/gray-grad.png") repeat-x scroll left top #DFDFDF; -moz-border-radius-topleft: 6px; -moz-border-radius-topright: 6px;border-width: 1px 1px 0;border-color: #CCCCCC;border-style: solid; margin-bottom: 0px}
+#order-terms #nav-menu-header {background: url("https://linosco.github.io/voleraisitoweb/wp-content/plugins/taxonomy-terms-order/images/gray-grad.png") repeat-x scroll left top #DFDFDF; -moz-border-radius-topleft: 6px; -moz-border-radius-topright: 6px;border-width: 1px 1px 0;border-color: #CCCCCC;border-style: solid; margin-bottom: 0px}
 #order-terms #nav-menu-header .major-publishing-actions {clear: both;padding: 5px 0px;}
 #order-terms #nav-menu-header .actions, #order-terms #nav-menu-footer .actions {padding: 0px; margin: 2px 0px; position: relative}
 .actions .toggle_thumbnails {margin-right: 30px}
 #order-terms #nav-menu-header .img_spacer {width: 18px; height: 18px;}
-#order-terms #nav-menu-footer {background: url("https://https://linosco.github.io/voleraisitoweb/wp-content/plugins/taxonomy-terms-order/images/gray-grad.png") repeat-x scroll left top #DFDFDF; -moz-border-radius-bottomleft: 6px; -moz-border-radius-bottomright: 6px;border-width: 0 1px 1px 1px;border-color: #CCCCCC;border-style: solid;}
+#order-terms #nav-menu-footer {background: url("https://linosco.github.io/voleraisitoweb/wp-content/plugins/taxonomy-terms-order/images/gray-grad.png") repeat-x scroll left top #DFDFDF; -moz-border-radius-bottomleft: 6px; -moz-border-radius-bottomright: 6px;border-width: 0 1px 1px 1px;border-color: #CCCCCC;border-style: solid;}
 #order-terms #nav-menu-footer .major-publishing-actions {clear: both;padding: 5px 0px;} 
 #order-terms #nav-menu-footer .submit {padding: 0px;}
 
